@@ -1,0 +1,62 @@
+name: mr_coffe
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobx: ^2.1.3
+  flutter_mobx: ^2.0.6+5
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.3.3
+  mobx_codegen: ^2.1.1
+  flutter_launcher_icons: "^0.11.0"
+
+flutter_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/icons/logo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/icons/google.png
+    - assets/images/icons/icone0.png
+    - assets/images/icons/icone1.png
+    - assets/images/icons/icone2.png
+    - assets/images/icons/icone3.png
+    - assets/images/background.png
+    - assets/images/logo-splash.png
+    - assets/images/logo.png
+    - assets/images/mastercad.png
+    - assets/images/produto1.png
+    - assets/images/produto2.png
+    - assets/images/produto3.png
+    - assets/images/produto4.png
+    - assets/images/produto5.png
+    - assets/images/produto6.png
+    - assets/images/success.gif
+    - assets/images/sugestao1.png
+    - assets/images/sugestao2.png
+    - assets/images/sugestao3.png
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Roboto-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Roboto-Regular.ttf
+          weight: 400
