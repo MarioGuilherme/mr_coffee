@@ -5,7 +5,7 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Implementação do projeto Mr_Coffee com a tecnologia Flutter baseando-se no protótipo do Figma desenhado pelo professor Felipe Maciel.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
